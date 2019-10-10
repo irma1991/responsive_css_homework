@@ -20,6 +20,20 @@ color: #8C8C73;
 line-height: 18px;
 }
 
+@media(max-width: 768px){
+    body{
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width: 992px){
+    body{
+        font-size: 18px;
+
+    }
+}
+
 a
 {
 color: #FF7800;
@@ -62,20 +76,6 @@ background: url('images/a26.gif') no-repeat;
 width: 146px;
 height: 75px;
 padding: 7px;
-}
-
-@media screen and (min-width: 992px) and (max-width:1200px){
-    img.picB {
-        width: 138px;
-        height: 74px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:991px){
-    img.picB {
-        width: 118px;
-        height: 64px;
-    }
 }
 
 img.floatleft
@@ -121,6 +121,18 @@ position: relative;
 width: 747px;
 margin: 0 auto;
 background: #fff url('images/abg.gif') repeat-y;
+}
+
+@media (max-width: 768px){
+    #outer{
+        width: 620px;
+    }
+}
+
+@media (max-width: 992px){
+    #outer{
+        width: 550px;
+    }
 }
 
 #inner
@@ -177,6 +189,18 @@ width: 458px;
 height: 92px;
 }
 
+@media (max-width: 768px){
+    #splash{
+        width: 350px;
+    }
+}
+
+@media (max-width: 992px){
+    #splash{
+        width: 300px;
+    }
+}
+
 #menu
 {
 position: relative;
@@ -185,6 +209,7 @@ height: 67px;
 padding: 0px 20px 0px 5px;
 margin: 98px 0px 20px 0px;
 }
+
 
 #menu ul
 {
@@ -239,6 +264,18 @@ width: 180px;
 float: right;
 }
 
+@media (max-width: 768px){
+    #secondarycontent{
+        float: none;
+    }
+}
+
+@media (max-width: 992px){
+    #secondarycontent{
+        float: none;
+    }
+}
+
 #secondarycontent h3
 {
 position: relative;
@@ -252,10 +289,34 @@ padding: 0px 0px 10px 10px;
 margin-bottom: 20px;
 }
 
+@media (max-width: 768px){
+    #secondarycontent h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px){
+    #secondarycontent h3{
+        font-size: 16px;
+    }
+}
+
 #secondarycontent .content
 {
 padding: 0px 10px 0px 10px;
 margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    #secondarycontent .content{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px){
+    #secondarycontent .content{
+        font-size: 12px;
+    }
 }
 
 #primarycontent
@@ -263,6 +324,18 @@ margin-bottom: 20px;
 position: relative;
 width: 480px;
 float: left;
+}
+
+@media (max-width: 768px){
+    #primarycontent{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px){
+    #primarycontent{
+        font-size: 14px;
+    }
 }
 
 #primarycontent h3
@@ -359,6 +432,18 @@ text-align: center;
 line-height: 66px;
 background-image: url('images/a50.gif');
 color: #A8A88D;
+}
+
+@media (max-width: 768px){
+    #footer{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 992px){
+    #footer{
+        font-size: 10px;
+    }
 }
 
 #footer a
