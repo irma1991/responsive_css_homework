@@ -20,20 +20,6 @@ color: #8C8C73;
 line-height: 18px;
 }
 
-@media(max-width: 768px){
-    body{
-        font-size: 20px;
-
-    }
-}
-
-@media(max-width: 992px){
-    body{
-        font-size: 18px;
-
-    }
-}
-
 a
 {
 color: #FF7800;
@@ -78,6 +64,13 @@ height: 75px;
 padding: 7px;
 }
 
+@media(max-width: 768px) and (max-width: 992px){
+    img.picB{
+        width: 100%;
+        height: 350px;
+    }
+}
+
 img.floatleft
 {
 float: left;
@@ -104,6 +97,13 @@ margin-top: 0px;
 padding-top: 0px;
 }
 
+@media(max-width: 768px) and (max-width: 992px){
+    .linklist{
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
 #upbg
 {
 position: absolute;
@@ -121,18 +121,6 @@ position: relative;
 width: 747px;
 margin: 0 auto;
 background: #fff url('images/abg.gif') repeat-y;
-}
-
-@media (max-width: 768px){
-    #outer{
-        width: 620px;
-    }
-}
-
-@media (max-width: 992px){
-    #outer{
-        width: 550px;
-    }
 }
 
 #inner
@@ -189,18 +177,6 @@ width: 458px;
 height: 92px;
 }
 
-@media (max-width: 768px){
-    #splash{
-        width: 350px;
-    }
-}
-
-@media (max-width: 992px){
-    #splash{
-        width: 300px;
-    }
-}
-
 #menu
 {
 position: relative;
@@ -208,6 +184,16 @@ background: #46461F url('images/a16.gif') repeat-x;
 height: 67px;
 padding: 0px 20px 0px 5px;
 margin: 98px 0px 20px 0px;
+}
+
+@media(max-width: 768px) and and (max-width: 992px){
+    #menu{
+        position: relative;
+        background: #46461F url('images/a16.gif') repeat-x;
+        height: 100%;
+        padding: 0px 20px 0px 5px;
+        margin: 98px 0px 20px 0px;
+    }
 }
 
 
@@ -220,6 +206,12 @@ margin: 98px 0px 20px 0px;
 display: inline;
 line-height: 52px;
 padding-left: 3px;
+}
+
+@media(max-width:768px) and (max-width: 992px){
+    #menu ul li{
+        display: block;
+    }
 }
 
 #menu ul li.first
@@ -235,6 +227,12 @@ padding: 8px 12px 8px 12px;
 font-size: 12px;
 color: #fff;
 font-weight: bold;
+}
+
+@media(max-width: 768px) and (max-width: 992px){
+    #menu ul li a{
+        font-size: 28px;
+    }
 }
 
 
@@ -257,6 +255,12 @@ font-size: 12px;
 letter-spacing: -1px;
 }
 
+@media(max-width: 768px) and (max-width: 992px){
+    #date{
+        font-size: 28px;
+    }
+}
+
 #secondarycontent
 {
 position: relative;
@@ -264,15 +268,11 @@ width: 180px;
 float: right;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) and (max-width: 992px){
     #secondarycontent{
+        width: 100%;
         float: none;
-    }
-}
-
-@media (max-width: 992px){
-    #secondarycontent{
-        float: none;
+        text-align: center;
     }
 }
 
@@ -289,15 +289,9 @@ padding: 0px 0px 10px 10px;
 margin-bottom: 20px;
 }
 
-@media (max-width: 768px){
+@media(max-width: 768px) and (max-width: 992px){
     #secondarycontent h3{
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 992px){
-    #secondarycontent h3{
-        font-size: 16px;
+        font-size:35px;
     }
 }
 
@@ -307,15 +301,11 @@ padding: 0px 10px 0px 10px;
 margin-bottom: 20px;
 }
 
-@media (max-width: 768px){
-    #secondarycontent .content{
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 992px){
-    #secondarycontent .content{
-        font-size: 12px;
+@media(max-width:768px) and (max-width: 992px){
+    .content p{
+        text-align: justify;
+        font-size: 28px;
+        line-height: 35px;
     }
 }
 
@@ -326,15 +316,12 @@ width: 480px;
 float: left;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) and (max-width: 992px){
     #primarycontent{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 992px){
-    #primarycontent{
-        font-size: 14px;
+        float: none;
+        width: 100%;
+        font-size: 28px;
+        line-height: 35px;
     }
 }
 
@@ -349,6 +336,13 @@ letter-spacing: -1px;
 background: url('images/a22.gif') bottom repeat-x;
 padding: 0px 0px 10px 15px;
 margin-bottom: 20px;
+}
+
+@media (max-width:768px) and (max-width: 992px){
+    #primarycontent h3{
+        font-size: 35px;
+        text-align: center;
+    }
 }
 
 #primarycontent .content
@@ -375,6 +369,12 @@ top: 0px;
 line-height: 35px;
 color: #AFAFA4;
 font-weight: bold;
+}
+
+@media(max-width: 768px) and (max-width: 992px){
+    #primarycontent .post .date{
+        display: none;
+    }
 }
 
 #primarycontent .post .content
@@ -434,15 +434,11 @@ background-image: url('images/a50.gif');
 color: #A8A88D;
 }
 
-@media (max-width: 768px){
+@media(max-width: 768px) and (max-width: 992px){
     #footer{
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 992px){
-    #footer{
-        font-size: 10px;
+        font-size: 28px;
+        line-height: 40px;
+        height: 70px;
     }
 }
 
